@@ -1,0 +1,352 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --SoftRed: hsl(7, 99%, 70%);
+  --Yellow: hsl(51, 100%, 49%);
+  --DarkDesaturatedCyan-graphic-design-text: hsl(167, 40%, 24%);
+  --DarkBlue-Photography-text: hsl(198, 62%, 26%);
+  --DarkModerateCyan-footer: hsl(168, 46%, 61%);
+
+  --VeryDarkDesaturatedBlue: hsl(212, 27%, 19%);
+  --VeryDarkGrayishBlue: hsl(213, 9%, 39%);
+  --DarkGrayishBlue: hsl(232, 10%, 55%);
+  --GrayishBlue: hsl(210, 4%, 67%);
+  --White: hsl(0, 0%, 100%);
+
+  /*foont 600*/
+
+  --Barlow: 'Barlow', sans-serif;
+
+  /*700 900*/
+
+  --Fraunces: 'Fraunces', serif;
+
+}
+
+.container-fluid {
+  padding: 0;
+}
+
+body {
+  font-size: 18px;
+}
+
+/*---------header-----------*/
+
+header {
+  background-image: url("./images/desktop/image-header.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position-x: 50%;
+  padding: 25px 5% 13em;
+}
+
+.nav__bar__section {
+  padding: 0;
+  --bs-navbar-toggler-border-color: none;
+  --bs-navbar-hover-color: unset;
+  border-radius: 10px;
+}
+
+
+
+.navbar-toggler-icon {
+  object-fit: cover;
+}
+
+
+/*---------header down section ---------*/
+.header__section__down {
+  padding: 120px 0px;
+  position: relative;
+  text-align: center;
+}
+
+.header__section__down__title {
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  color: var(--White);
+  font-family: var(--Fraunces);
+  font-weight: 900;
+  font-size: 2.65em;
+}
+
+.header__arrow__img {
+  position: absolute;
+  left: 45%;
+  top: 70%;
+}
+
+
+/*----------main------------*/
+
+main {
+  overflow: hidden;
+}
+
+/*----------first section----------*/
+
+.first__section__container__item__text {
+  padding: 2.7em 2.1em;
+  text-align: center;
+}
+
+.first__section__img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.container__item__title {
+  font-size: 1.65em;
+  font-family: var(--Fraunces);
+  color: var(--VeryDarkDesaturatedBlue);
+  font-weight: 900;
+  margin-bottom: 1.3em;
+}
+
+.container__item__paragraph {
+  font-size: 0.8em;
+  color: var(--GrayishBlue);
+  font-family: var(--Barlow);
+  font-weight: 400;
+  line-height: 1.8;
+  margin-bottom: 1.3em;
+}
+
+.text__container__button {
+  background-color: transparent;
+  border: none;
+  font-size: 0.75em;
+  font-family: var(--Fraunces);
+  color: var(--VeryDarkDesaturatedBlue);
+  font-weight: 900;
+  text-transform: uppercase;
+}
+
+#yellow__underline:hover {
+  text-decoration: underline 5px var(--Yellow);
+}
+
+#red__underline:hover {
+  text-decoration: underline 5px var(--SoftRed);
+}
+
+#container__item__bg__a {
+  background-image: url("./images/mobile/image-graphic-design.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position-x: 50%;
+  padding: 19em 1.1em 2.75em;
+}
+
+#container__item__bg__a .h1__colour {
+  color: var(--DarkDesaturatedCyan-graphic-design-text);
+  font-size: 1.3em;
+}
+
+#container__item__bg__a .p__colour {
+  color: var(--DarkDesaturatedCyan-graphic-design-text);
+}
+
+#container__item__bg__b {
+  background-image: url("./images/mobile/image-photography.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position-x: 50%;
+  padding: 19em 1.1em 2.75em;
+}
+
+#container__item__bg__b .h1__colour {
+  color: var(--DarkBlue-Photography-text);
+  font-size: 1.3em;
+}
+
+#container__item__bg__b .p__colour {
+  color: var(--DarkBlue-Photography-text);
+}
+
+/*-----------second section-------------*/
+
+.second__first__section {
+  padding: 2.75em 1.65em;
+}
+
+.second__section__title {
+  font-size: 0.75em;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  font-family: var(--Fraunces);
+  font-weight: 900;
+  color: var(--DarkGrayishBlue);
+  margin-bottom: 1.7em;
+}
+
+.testimonies__container .row {
+  gap: 2.5em;
+}
+
+.testimony__img {
+  border-radius: 50%;
+  width: 60px;
+  height: 60px;
+  margin-bottom: 1.7em;
+}
+
+.testimony__paragraph {
+  font-size: 0.75em;
+  font-family: var(--Barlow);
+  font-weight: 600;
+  color: var(--VeryDarkGrayishBlue);
+  line-height: 1.75;
+}
+
+.testimony__name {
+  font-size: 0.9em;
+  color: var(--VeryDarkDesaturatedBlue);
+  font-weight: 700;
+  font-family: var(--Fraunces);
+}
+
+.testimony__job {
+  color: var(--GrayishBlue);
+  font-size: 0.75em;
+  font-family: var(--Barlow);
+  font-weight: 600;
+}
+
+/*---------third section  -----------*/
+
+.img__col {
+  padding: 0;
+}
+
+/*-----------footer-------------*/
+
+footer {
+  padding: 50px 30px;
+  background-color: var(--DarkModerateCyan-footer);
+  gap: 2.5em
+}
+
+
+.footer__nav__bar {
+  list-style: none;
+  padding: 0;
+  gap: 2em;
+  font-size: 0.75em;
+  font-family: var(--Barlow);
+  font-weight: 600;
+  color: var(--DarkDesaturatedCyan-graphic-design-text);
+}
+
+.footer__contact {
+  gap: 2em;
+  color: var(--DarkDesaturatedCyan-graphic-design-text);
+  width: 1em;
+}
+
+.footer__nav__bar__item:hover {
+  color: var(--White);
+}
+
+.sotial__media:hover {
+  color: var(--White);
+}
+
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
+
+
+@media only screen and (min-width: 777px) {
+
+  /*------header---------*/
+
+  header {
+    padding: 25px 5% 20em;
+    background-position-y: 50% ;
+  }
+
+  .nav__bar__menu {
+    display: flex;
+    flex-direction: row;
+    gap: 1em;
+  }
+
+  .nav__bar__section {
+    --bs-bg-opacity: 0;
+  }
+
+  .navbar-nav li a{
+    color: white;
+    font-family: var(--Barlow);
+    font-size: 0.7em;
+  }
+
+  .nav__bar__button {
+    padding: 8px 16px;
+    font-family: var(--Fraunces);
+    color: var(--VeryDarkDesaturatedBlue);
+    font-size: 0.75em;
+    background-color: white;
+    border-radius: 20px;
+    text-transform: uppercase;
+  }
+
+  /*-------second section -----------*/
+
+  .testimonies__container .row {
+    gap: 0em;
+  }
+
+  .testimony {
+    padding: 0;
+  }
+}
+
+@media only screen and (min-width: 1000px) {
+
+    /*-------header--------*/
+
+    .header__arrow__img {
+      left: 50%;
+    }
+
+    .nav__bar__button:hover {
+      background-color: rgba(255, 255, 255, 0.5);
+      color: white;
+    }
+
+    /*------first section*/
+
+    #row__reverse__desktop{
+      display: flex;
+      flex-direction: row-reverse;
+    }
+  
+    .first__section__container__item {
+      padding: 0;
+    }
+  
+    .first__section__container__item__text {
+      padding: 160px;
+      text-align: left;
+    }
+  
+    #container__item__bg__a, #container__item__bg__b {
+      padding: 700px 190px 60px;
+    }
+  
+    /*-------second section -----------*/
+
+  .second__first__section {
+    padding: 160px;
+  }
+
+  /*---------footer-----------*/
+
+}
